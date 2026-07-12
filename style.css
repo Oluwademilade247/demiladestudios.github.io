@@ -790,12 +790,12 @@ transform:translateY(-5px);
     gap: 20px;
     padding: 20px;
 }
-..portfolio-container img {
+.portfolio-container img {
     width: 100%;
-    max-height: 350px;
-    height: auto;
+    height: 220px;
     object-fit: contain;
+    background: #f5f5f5;
     border-radius: 10px;
     display: block;
-    background: #f5f5f5;
+    padding: 8px;
 }
