@@ -700,3 +700,54 @@ display:flex;
 }
 
    }
+/* Portfolio */
+
+.portfolio-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+margin-top:50px;
+
+}
+
+.portfolio-card{
+
+height:220px;
+
+background:#151515;
+
+border:2px solid rgba(212,175,55,.25);
+
+border-radius:18px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:22px;
+
+font-weight:600;
+
+color:var(--gold);
+
+transition:.35s;
+
+cursor:pointer;
+
+}
+
+.portfolio-card:hover{
+
+transform:translateY(-10px);
+
+border-color:var(--gold);
+
+box-shadow:0 0 25px rgba(212,175,55,.25);
+
+}
