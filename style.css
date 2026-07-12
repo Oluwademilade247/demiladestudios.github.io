@@ -751,3 +751,36 @@ border-color:var(--gold);
 box-shadow:0 0 25px rgba(212,175,55,.25);
 
 }
+.whatsapp-float{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+background:#25D366;
+
+color:white;
+
+padding:15px 25px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:700;
+
+z-index:999;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+transition:.3s;
+
+}
+
+.whatsapp-float:hover{
+
+transform:translateY(-5px);
+
+   }
